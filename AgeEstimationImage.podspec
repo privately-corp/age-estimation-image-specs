@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.author             = { "Mathieu Monney" => "developer.contact@privately.eu" }
     s.source       = { :http => 'https://sos-ch-dk-2.exo.io/eu.privately.sdk/ios/age-estimation/AgeEstimationImage-0.1.0.xcframework.zip' }
     s.vendored_frameworks = ["AgeEstimationImage.xcframework"]
-    s.dependency 'PrivatelyCore', '0.1.0'
+    s.dependency 'PrivatelyCoreIos', '0.1.0'
     s.dependency 'TensorFlowLiteObjC', '~> 2.7.0'
     s.platform = :ios
     s.swift_version = "5.5"
